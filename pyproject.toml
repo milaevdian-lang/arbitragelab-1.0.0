@@ -43,8 +43,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hudson-and-thames/arbitragelab"
+Homepage = "https://github.com/milaevdian-lang/arbitragelab-1.0.0"
+Repository = "https://github.com/milaevdian-lang/arbitragelab-1.0.0.git"
 
 [tool.setuptools]
-packages = ["arbitragelab"]
+# Автоматически находим все пакеты и подпакеты
+packages = {find = {}}
 
